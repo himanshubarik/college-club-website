@@ -104,7 +104,11 @@ html,body{
 }
 
 .main-footer{
-	background-color: lightblue;
+	/*background-color: lightblue;*/
+	background: #70e1f5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	color: white;
 	padding: .25em 0;
 
@@ -296,13 +300,22 @@ header{
 	font-size: 24px;
 	font-family: sans-serif,cursive;
 	text-align: center;
-	background-color: pink;
+	/*background-color: pink;*/
+	background: #ddd6f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
 body{
 	font-family: sans-serif;
-	background-color: lightblue;
+	/*background-color: lightblue;*/
+
+	background: #70e1f5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -318,7 +331,12 @@ main{
 	width:30%; 
 	padding: 10px;
 	padding-left: 15px;
-	background-color: pink;
+	/*background-color: pink;*/
+
+	background: #ddd6f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	
 
 
