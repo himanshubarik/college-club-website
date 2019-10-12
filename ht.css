@@ -1,22 +1,17 @@
-
-
-
+@import url('https://fonts.googleapis.com/css?family=Roboto|Corben&display=swap');
 
 *{
 	box-sizing: border-box;
-	font-family: cursive;
+	font-family: 'Corben', cursive;
 	color:red;
 }
 
-
-
-html,body{
+html, body {
 	margin:0;
 	padding: .;
 }
 
-
-.nav ul{
+.nav ul {
 	margin:0;
 
 }
@@ -43,7 +38,6 @@ html,body{
 
 }
 
-
 .nav a:hover 
 {
 	background-color: rgba(255,255,255,.3);
@@ -59,19 +53,17 @@ html,body{
 	padding-bottom: 30px;
 }
 
-.band-name{
+.band-name {
 	text-align: center;
 	margin: 0;
 	font-size: 4em;
-	font-family: "Booter-Zero Zero";
+	font-family: 'Corben', cursive;
 	font-weight: normal;
 	color: red;
-
 }
 
 .band-name-large{
-	font-size: 9em;
-
+	font-size: 8em;
 }
 
 .content-section{
@@ -86,8 +78,8 @@ html,body{
 
 }
 
-.section-header{
-	font-family: "italic";
+.section-header {
+	font-family: 'Corben', cursive;
 	font-weight: normal;
 	color: #333;
 	text-align: center;
@@ -107,14 +99,12 @@ html,body{
 	background-color: lightblue;
 	color: white;
 	padding: .25em 0;
-
 }
 
 
 <element class="main-footer-container">
 .main-footer-container{
 display: flex;
-
 }
 
 .main-footer-container{
@@ -169,12 +159,12 @@ display: flex;
 .btn-play{
 	display: block;
 	margin: 0 auto;
-color: orange;
-font-size: 4em;
-border-radius: 50%;
-padding: 0;
-width: 100px;
-height: 100px;
+	color: orange;
+	font-size: 4em;
+	border-radius: 50%;
+	padding: 0;
+	width: 100px;
+	height: 100px;
 }
 
 table,th,td{
@@ -200,8 +190,6 @@ table{
 	border:none;
 	border-radius: .3em;
 	font-weight: bold;
-
-
 }
 
 .btn-primary:hover{
@@ -292,48 +280,36 @@ width: 35%;
 	border-radius: 10px;
 }
 
-header{
+header {
 	font-size: 24px;
-	font-family: sans-serif,cursive;
+	font-family: 'Roboto', sans-serif, cursive;
 	text-align: center;
 	background-color: pink;
 }
 
-
-body{
-	font-family: sans-serif;
+body {
+	font-family: 'Roboto', sans-serif;
 	background-color: lightblue;
-
 }
 
-
-
-main{
+main {
 	margin-left: 120px;
 }
 
-.box{
+.box {
 	display: block;
 	float: left;
 	width:30%; 
 	padding: 10px;
 	padding-left: 15px;
 	background-color: pink;
-	
-
-
-
-
 }
 
-img{
+img {
 	width: 100%;
-	
-
-
 }
-img:hover{
+
+img:hover {
 	transform: scale(2,2);
 	transition: .3s transform;
-	
 }
