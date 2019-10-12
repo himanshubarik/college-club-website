@@ -38,6 +38,12 @@ html,body{
 	border-bottom: 1px solid rgba(255,255,255,.3);
 }
 
+.copyright-footer{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
 .main-nav li{
 	padding: 0 5%;
 
