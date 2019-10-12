@@ -4,7 +4,7 @@
 
 *{
 	box-sizing: border-box;
-	font-family: cursive;
+	font-family: Helvetica;
 	color:red;
 }
 
@@ -44,7 +44,7 @@ html,body{
 }
 
 
-.nav a:hover 
+.nav a:hover
 {
 	background-color: rgba(255,255,255,.3);
 }
@@ -52,7 +52,7 @@ html,body{
 
 .main-header
 {
-	background-color: rgba(0,0,0,.6);
+	background-color: yellow;
 	background-image: url("sp.jpg.png");
 	background-blend-mode: multiply;
 	background-size: cover;
@@ -80,14 +80,14 @@ html,body{
 }
 
 .container{
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 1.5em;
 
 }
 
 .section-header{
-	font-family: "italic";
+	font-family: sans-serif;
 	font-weight: normal;
 	color: #333;
 	text-align: center;
@@ -162,7 +162,7 @@ display: flex;
 
 .btn-header:hover{
 	background-color: rgba(255,255,255,.3);
-	
+
 }
 
 
@@ -196,7 +196,7 @@ table{
 
 .btn-primary{
 	color: white;
-	background-color: #56CCF2;
+	background-color: green;
 	border:none;
 	border-radius: .3em;
 	font-weight: bold;
@@ -302,7 +302,7 @@ header{
 
 body{
 	font-family: sans-serif;
-	background-color: lightblue;
+	background-color: coral;
 
 }
 
@@ -315,11 +315,11 @@ main{
 .box{
 	display: block;
 	float: left;
-	width:30%; 
+	width:30%;
 	padding: 10px;
 	padding-left: 15px;
 	background-color: pink;
-	
+
 
 
 
@@ -328,12 +328,13 @@ main{
 
 img{
 	width: 100%;
-	
+
 
 
 }
 img:hover{
 	transform: scale(2,2);
 	transition: .3s transform;
-	
+
 }
+
