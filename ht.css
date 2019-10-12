@@ -1,14 +1,8 @@
-
-
-
-
 *{
 	box-sizing: border-box;
 	font-family: cursive;
 	color:red;
 }
-
-
 
 html,body{
 	margin:0;
@@ -40,9 +34,7 @@ html,body{
 
 .main-nav li{
 	padding: 0 5%;
-
 }
-
 
 .nav a:hover 
 {
@@ -63,7 +55,7 @@ html,body{
 	text-align: center;
 	margin: 0;
 	font-size: 4em;
-	font-family: "Booter-Zero Zero";
+	font-family: "Segoe UI", "Arial", sans-serif;
 	font-weight: normal;
 	color: red;
 
