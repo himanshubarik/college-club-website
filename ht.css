@@ -63,7 +63,7 @@ html,body{
 	text-align: center;
 	margin: 0;
 	font-size: 4em;
-	font-family: "Booter-Zero Zero";
+	font-family: harlow solid italic;
 	font-weight: normal;
 	color: red;
 
@@ -87,7 +87,7 @@ html,body{
 }
 
 .section-header{
-	font-family: "italic";
+	font-family: arial;
 	font-weight: normal;
 	color: #333;
 	text-align: center;
@@ -294,14 +294,14 @@ width: 35%;
 
 header{
 	font-size: 24px;
-	font-family: sans-serif,cursive;
+	font-family: arial black;
 	text-align: center;
 	background-color: pink;
 }
 
 
 body{
-	font-family: sans-serif;
+	font-family: rockwell;
 	background-color: lightblue;
 
 }
