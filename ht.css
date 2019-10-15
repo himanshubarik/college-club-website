@@ -17,6 +17,7 @@ html, body {
 }
 .nav li{
 	display: inline;
+	font-family: 'Roboto',sans-serif;
 }
 
 .nav a{
@@ -27,6 +28,7 @@ html, body {
 }
 
 .main-nav{
+
 	text-align: center;
 	font-size: 1.1em;
 	font-weight: lighter;
@@ -38,9 +40,16 @@ html, body {
 
 }
 
+.nav a{
+	transition: 0.3s;
+}
+
 .nav a:hover 
 {
-	background-color: rgba(255,255,255,.3);
+	transition: 0.3s;
+	color: #000;
+	
+	background-color: rgba(255,255,255);
 }
 
 
@@ -51,6 +60,7 @@ html, body {
 	background-blend-mode: multiply;
 	background-size: cover;
 	padding-bottom: 30px;
+	font-family: 'Roboto',sans-serif;
 }
 
 .band-name {
