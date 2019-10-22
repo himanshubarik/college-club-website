@@ -17,7 +17,7 @@ html, body {
 }
 .nav li{
 	display: inline;
-	font-family: 'Roboto',sans-serif;
+	font-family: 'Roboto',monospace;
 }
 
 .nav a{
